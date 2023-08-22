@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-link{
+color: black !important;
+}
+.navbar-brand{
+  color: black !important;
+}
+h1{
+ font-size: 20px !important; 
+}
+.flex-container{
+ display: flex !important; 
+}
+.btn{
+  background-color: red !important;
+  color: white !important;
+}
+select{
+  border-color: black !important;
+}
+.fa-plus{
+  color:green ;
+  margin: 5px;
+}
+.fa-minus{
+  color:red !important;
+  margin: 5px;
+}
+.fa-trash{
+  color:red;
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+.adminfunctions{
+  padding: 10px;
+  background-color:rgb(1, 1, 77);
+}
+
+.adminfunctions li{
+  list-style-type: none !important; 
+  display: inline !important;
+  color: white !important;
+}
+.adminfunctions li a{
+   color: white !important;
+   padding: 20px;
+}
+td , th , tr{
+  text-align:left;
+}
+.login{
+  background-image: url('./images//bg-log.webp');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height:90vh;
+}
+.register{
+  background-image: url('./images//bg-reg.webp');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height:85vh;
 }
